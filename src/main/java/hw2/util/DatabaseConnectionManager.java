@@ -1,4 +1,6 @@
-package hw2;
+package hw2.util;
+
+import hw2.constants.Constants;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
