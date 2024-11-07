@@ -66,6 +66,27 @@
             <version>4.0.0</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- SLF4J API (Logging facade) -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.0-alpha1</version> <!-- Choose the latest SLF4J version -->
+        </dependency>
+
+        <!-- Logback Classic (Logging implementation for SLF4J) -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.5</version> <!-- Choose the latest Logback version -->
+        </dependency>
+
+        <!-- Logback Core (required by logback-classic) -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.4.5</version>
+        </dependency>
     </dependencies>
 
     <build>
