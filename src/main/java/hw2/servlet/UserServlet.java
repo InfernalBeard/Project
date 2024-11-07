@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 public class UserServlet extends HttpServlet {
-    private UserDao userDao = new UserDao();
+    UserDao userDao = new UserDao();
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
