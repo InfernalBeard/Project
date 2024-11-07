@@ -1,4 +1,4 @@
-package hw2;
+package hw2.constants;
 
 public class Constants {
     public static final String DATABASE_URL = "jdbc:postgresql://localhost:5432/mydb";
